@@ -3,6 +3,8 @@ package banco
 import (
 	"api/src/config"
 	"database/sql"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 // Conectar abre uma conexao com o banco de dados e retorna
